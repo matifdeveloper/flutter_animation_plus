@@ -1,7 +1,7 @@
 name: flutter_animation_plus
 description: "The flutter_animation_plus package provides a collection of versatile animation widgets designed to enhance the Flutter application's visual appeal and interactivity. With over 15+ unique animation options, developers can easily integrate dynamic effects into their UI elements."
-homepage: https://github.com/matifdeveloper/flutter_animation
-repository: https://github.com/matifdeveloper/flutter_animation
+homepage: https://github.com/matifdeveloper/flutter_animation_plus
+repository: https://github.com/matifdeveloper/flutter_animation_plus
 version: 0.0.1
 admob_easy:
   path: ../flutter_animation_plus
