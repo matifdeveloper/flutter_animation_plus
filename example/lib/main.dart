@@ -30,7 +30,9 @@ class MyApp extends StatelessWidget {
                   style: TextStyle(fontSize: 25),
                 ),
               ),
-              SizedBox(height: 12,),
+              SizedBox(
+                height: 12,
+              ),
               RotatingAnimation(
                 duration: Duration(seconds: 1),
                 repeat: true,

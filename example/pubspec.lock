@@ -65,11 +65,10 @@ packages:
   flutter_animation_plus:
     dependency: "direct main"
     description:
-      name: flutter_animation_plus
-      sha256: "1d829a0652ae30f5c96eb43e8201f27693bed3e62b6d2ed4937e998076311282"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.0.4"
+      path: ".."
+      relative: true
+    source: path
+    version: "0.0.6"
   flutter_lints:
     dependency: "direct dev"
     description:

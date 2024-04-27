@@ -2,7 +2,7 @@ name: flutter_animation_plus
 description: "Elevate your Flutter app's visual appeal with flutter_animation_plus. Choose from 15+ dynamic animations to enhance interactivity."
 homepage: https://github.com/matifdeveloper/flutter_animation_plus
 repository: https://github.com/matifdeveloper/flutter_animation_plus
-version: 0.0.5
+version: 0.0.6
 flutter_animation_plus:
   path: ../flutter_animation_plus
 
