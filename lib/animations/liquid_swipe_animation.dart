@@ -147,6 +147,6 @@ class _LiquidSwipeClipper extends CustomClipper<Path> {
   @override
   bool shouldReclip(covariant CustomClipper<Path> oldClipper) {
     // Returns true if the old clipper is an instance of _LiquidSwipeClipper and its progress is different.
-    return oldClipper is _LiquidSwipeClipper && oldClipper.progress!= progress;
+    return oldClipper is _LiquidSwipeClipper && oldClipper.progress != progress;
   }
 }

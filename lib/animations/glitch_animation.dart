@@ -44,7 +44,8 @@ class GlitchAnimation extends StatefulWidget {
 }
 
 // The state class for the GlitchAnimation widget.
-class _GlitchAnimationState extends State<GlitchAnimation> with TickerProviderStateMixin {
+class _GlitchAnimationState extends State<GlitchAnimation>
+    with TickerProviderStateMixin {
   // The animation controller for the glitch animation.
   late final AnimationController _controller;
 

@@ -44,7 +44,8 @@ class BlobAnimation extends StatefulWidget {
 }
 
 // The state for the BlobAnimation widget.
-class _BlobAnimationState extends State<BlobAnimation> with TickerProviderStateMixin {
+class _BlobAnimationState extends State<BlobAnimation>
+    with TickerProviderStateMixin {
   // The animation controller for the animation.
   late final AnimationController _controller;
 
@@ -129,9 +130,12 @@ class _BlobClipper extends CustomClipper<Path> {
 
     // Draws a cubic curve to define the blob shape.
     path.cubicTo(
-      size.width * 0.25, size.height * (1 - progress * 2),
-      size.width * 0.75, size.height * (1 - progress * 2),
-      size.width, size.height * (1 - progress),
+      size.width * 0.25,
+      size.height * (1 - progress * 2),
+      size.width * 0.75,
+      size.height * (1 - progress * 2),
+      size.width,
+      size.height * (1 - progress),
     );
 
     // Closes the path.
@@ -146,6 +150,6 @@ class _BlobClipper extends CustomClipper<Path> {
   @override
   bool shouldReclip(covariant CustomClipper<Path> oldClipper) {
     // Returns true if the progress has changed.
-    return oldClipper is _BlobClipper && oldClipper.progress!= progress;
+    return oldClipper is _BlobClipper && oldClipper.progress != progress;
   }
 }

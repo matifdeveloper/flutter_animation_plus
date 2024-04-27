@@ -147,6 +147,6 @@ class _MorphingClipper extends CustomClipper<Path> {
   @override
   bool shouldReclip(covariant CustomClipper<Path> oldClipper) {
     // Returns true if the old clipper is a _MorphingClipper and its progress is different.
-    return oldClipper is _MorphingClipper && oldClipper.progress!= progress;
+    return oldClipper is _MorphingClipper && oldClipper.progress != progress;
   }
 }

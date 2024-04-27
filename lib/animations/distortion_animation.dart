@@ -147,6 +147,6 @@ class _DistortionClipper extends CustomClipper<Path> {
   @override
   bool shouldReclip(covariant CustomClipper<Path> oldClipper) {
     // Returns true if the old clipper is a _DistortionClipper with a different progress.
-    return oldClipper is _DistortionClipper && oldClipper.progress!= progress;
+    return oldClipper is _DistortionClipper && oldClipper.progress != progress;
   }
 }

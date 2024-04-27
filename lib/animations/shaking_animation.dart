@@ -102,4 +102,3 @@ class _ShakingAnimationState extends State<ShakingAnimation>
     );
   }
 }
-

@@ -20,7 +20,6 @@
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
 
-
 // A StatefulWidget that performs a flip animation on its child widget.
 class FlipAnimation extends StatefulWidget {
   // The child widget to be animated.

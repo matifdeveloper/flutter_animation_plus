@@ -106,11 +106,11 @@ class _TwistingAnimationState extends State<TwistingAnimation>
           alignment: Alignment.center,
           // The transformation matrix.
           transform: Matrix4.identity()
-          // Sets the perspective entry to create a 3D effect.
+            // Sets the perspective entry to create a 3D effect.
             ..setEntry(3, 2, 0.001)
-          // Rotates the child around the X-axis by the animation value.
+            // Rotates the child around the X-axis by the animation value.
             ..rotateX(_animation.value)
-          // Rotates the child around the Y-axis by the animation value.
+            // Rotates the child around the Y-axis by the animation value.
             ..rotateY(_animation.value),
           // The child widget to be transformed.
           child: widget.child,
