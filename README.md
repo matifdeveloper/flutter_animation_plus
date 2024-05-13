@@ -8,7 +8,7 @@ To use `flutter_animation_plus` in your Flutter project, add the following depen
 
 ```yaml
 dependencies:
-  flutter_animation_plus: ^0.0.1
+  flutter_animation_plus: ^0.0.7
 ```
 
 **BlobAnimation**: Create blob-like distortions with smooth transitions.
